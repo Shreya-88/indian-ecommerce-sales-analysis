@@ -1,0 +1,20 @@
+Column,Type,Description
+Order_ID,Text,Unique order identifier
+Order_Date,Date,Order date
+Customer_ID,Text,Anonymised customer identifier
+Region,Text,Indian sales region
+State,Text,Delivery state
+City,Text,Delivery city
+Category,Text,Product category
+Product,Text,Product name
+Channel,Text,Order channel
+Quantity,Integer,Units ordered
+Unit_Price_INR,Decimal,Listed unit price in INR
+Discount_Pct,Integer,Discount percentage
+Sales_INR,Decimal,Net sales after discount
+Cost_INR,Decimal,Estimated product cost
+Profit_INR,Decimal,Sales less estimated product cost
+Payment_Method,Text,Payment method
+Delivery_Days,Integer,Days to delivery
+Returned,Text,Whether order was returned
+Rating,Integer,Customer rating from 1 to 5
