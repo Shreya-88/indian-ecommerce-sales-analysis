@@ -1,6 +1,6 @@
 # Indian E-commerce Sales Analysis
 
-![Dashboard preview](images/dashboard_preview.png)
+![Dashboard preview](dashboard_preview.png)
 
 ## Project overview
 This **guided portfolio project** analyses a simulated Indian e-commerce dataset to help a retail manager understand sales, profitability, returns, and delivery performance. The data is synthetic and does not represent a real employer or customer.
@@ -21,7 +21,7 @@ This **guided portfolio project** analyses a simulated Indian e-commerce dataset
 - 2,400 order-level records from January 2025 to June 2026
 - 19 columns covering orders, geography, category, revenue, profit, delivery, returns, and ratings
 - Reproducible synthetic data generated for learning
-- See [`data/data_dictionary.csv`](data/data_dictionary.csv)
+- See [`data_dictionary.csv`](data_dictionary.csv)
 
 ## Headline results
 - Total sales: **₹6,598,858** across **2,400 orders**
@@ -39,22 +39,20 @@ This **guided portfolio project** analyses a simulated Indian e-commerce dataset
 4. Compare channel acquisition costs before moving budget; order volume alone is not enough.
 
 ## Repository structure
-```
-├── data/
-│   ├── ecommerce_sales.csv
-│   └── data_dictionary.csv
-├── excel/ecommerce_sales_analysis.xlsx
-├── sql/analysis_queries.sql
-├── powerbi/POWER_BI_BUILD_GUIDE.md
-├── images/dashboard_preview.png
-└── README.md
+
+- [`ecommerce_sales.csv`](ecommerce_sales.csv) — Main dataset
+- [`data_dictionary.csv`](data_dictionary.csv) — Column descriptions
+- [`ecommerce_sales_analysis.xlsx`](ecommerce_sales_analysis.xlsx) — Excel analysis and dashboard
+- [`analysis_queries.sql`](analysis_queries.sql) — SQL analysis queries
+- [`POWER_BI_BUILD_GUIDE.md`](POWER_BI_BUILD_GUIDE.md) — Power BI instructions and DAX measures
+- [`dashboard_preview.png`](dashboard_preview.png) — Dashboard preview
 ```
 
 ## How to reproduce
 1. Download this repository.
 2. Open the Excel workbook and review `Raw_Data`, `Analysis`, and `Dashboard`.
-3. Import the CSV into SQLite (for example, SQLiteOnline) and run the SQL queries one at a time.
-4. Follow the Power BI build guide to create an interactive dashboard.
+3. Import `ecommerce_sales.csv` into SQLite and run [`analysis_queries.sql`](analysis_queries.sql).
+4. Follow [`POWER_BI_BUILD_GUIDE.md`](POWER_BI_BUILD_GUIDE.md) to create the interactive Power BI dashboard.
 
 ## What I learned
 - Structuring a business problem before building charts
