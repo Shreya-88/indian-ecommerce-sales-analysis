@@ -1,7 +1,5 @@
 # Indian E-commerce Sales Analysis
 
-![Dashboard preview](dashboard_preview.png)
-
 ## Project overview
 This **guided portfolio project** analyses a simulated Indian e-commerce dataset to help a retail manager understand sales, profitability, returns, and delivery performance. The data is synthetic and does not represent a real employer or customer.
 
