@@ -1,5 +1,14 @@
 # Indian E-commerce Sales Analysis
-- [`dashboard_preview.png`](dashboard_preview.png) — Dashboard preview
+
+<p align="center">
+  <a href="dashboard_preview.png">
+    <img src="dashboard_preview.png" alt="Indian E-commerce Sales Dashboard" width="900">
+  </a>
+</p>
+
+<p align="center">
+  <em>Excel dashboard showing sales, profit, category, region, channel, and return performance.</em>
+</p>
 
 ## Project overview
 This **guided portfolio project** analyses a simulated Indian e-commerce dataset to help a retail manager understand sales, profitability, returns, and delivery performance. The data is synthetic and does not represent a real employer or customer.
